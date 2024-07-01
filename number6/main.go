@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	angkaDeret(9)
+	fmt.Println(" ")
 	angkaDeret(5)
 
 }
