@@ -13,7 +13,7 @@ func piramid() {
 	fmt.Scan(&input)
 	for row := 0; row < input; row++ {
 		for col := input; col > row; col-- {
-			fmt.Printf("%d ", col)
+			fmt.Printf("%d ", col-row)
 		}
 		fmt.Println(" ")
 	}

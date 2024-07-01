@@ -4,8 +4,11 @@ import "fmt"
 
 func main() {
 	segitiga(5)
+	fmt.Println(" ")
 	segitiga2(5)
-	// segitiga3(5)
+	fmt.Println(" ")
+
+	segitiga3(5)
 }
 
 func segitiga(n int) {
